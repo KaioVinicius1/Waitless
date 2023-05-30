@@ -9,7 +9,7 @@ export default function List(props) {
  return (
    <View>
     <View style={styles.ViewImg}>
-        <TouchableOpacity  onPress={() => navigation.navigate('Restaurant')}>
+        <TouchableOpacity  onPress={() => navigation.navigate('Login')}>
         <Image
         source={props.data.img}
         style={styles.ImgLoja}
